@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+
+  width: 300px;
+  border: 2px solid deeppink;
+
+  margin: 0 30px;
+
+
+  p {
+    padding: 40px 10px;
+
+  }
+
+}
+
+.img {
+  width: 100%;
+
+}
+
+.logo {
+  width: 20px;
+
+}
+
+.wrap {
+  display: flex;
+  gap: 30px;
+
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  width: 200px;
+  margin: 0 auto;
+
+}
+
+
+.hj {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.btn {
+  background-color: deeppink;
+  color: #fff;
+  padding: 13px 40px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+padding: 0 0 20px 0;
+}
